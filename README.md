@@ -2,6 +2,7 @@
 No need description
 
 #Run Tools 👇
+rm -rf Custom_SmS
 
 git clone https://github.com/DH-Alamin/Custom_SmS
 
